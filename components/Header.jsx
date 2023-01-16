@@ -7,8 +7,9 @@ function Header() {
       {/* logo section */}
       <div className="relative flex items-center h-10 cursor-pointer my-auto">
         <Image 
-          src='https://links.papareact.com/qd3'
-          fill
+          src='/assets/fiesta.png'
+          height={120}
+          width={120}
           style={{objectFit:"contain", objectPosition:"left"}}
         />
       </div>
