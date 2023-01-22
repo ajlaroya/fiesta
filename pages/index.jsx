@@ -15,8 +15,7 @@ export default function Home({ exploreData, cardsData }) {
       <Head>
         <title>Fiesta</title>
       </Head>
-
-      <Header />
+      
       <Banner />
 
       <main className="max-w-7xl mx-auto px-8 sm:px-16">
@@ -54,7 +53,7 @@ export default function Home({ exploreData, cardsData }) {
         />
       </main>
 
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
