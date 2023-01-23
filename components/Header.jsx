@@ -23,7 +23,7 @@ function Header() {
   const formattedStartDate = format(new Date(startDate), 'dd MMMM yy')
   const formattedEndDate = format(new Date(endDate), 'dd MMMM yy')
   const range = `${formattedStartDate} to ${formattedEndDate}`
-  const placeholder = `${searchInput} | ${range} | ${noOfGuests} guests`
+  const placeholder = `${range} | ${noOfGuests} guests`
 
   const resetInput = () => {
     setSearchInput('')
