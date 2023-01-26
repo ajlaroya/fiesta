@@ -1,5 +1,6 @@
 import InfoCard from "@/components/InfoCard";
 import Map from "@/components/Map";
+import Head from "next/head";
 import { useRouter } from "next/router";
 
 function Search({ searchResults }) {
@@ -7,10 +8,13 @@ function Search({ searchResults }) {
 
   const { location, startDate, endDate, noOfGuests } = router.query;
 
-  const range = `${startDate}-${endDate}`;
+  const range = `${startDate} to ${endDate}`;
 
   return (
     <main className="flex">
+      <Head>
+        <title>Search - Fiesta</title>
+      </Head>
       <section className="flex-grow pt-8 px-6">
         <p className="text-xs">
           300+ Fiestas - {range} - for {noOfGuests} guests
