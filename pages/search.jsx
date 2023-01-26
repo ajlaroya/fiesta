@@ -16,7 +16,7 @@ function Search({ searchResults }) {
           300+ Fiestas - {range} - for {noOfGuests} guests
         </p>
         <h1 className="text-3xl font-semibold mt-2 mb-6">
-          Stays in '{location}'
+          Stays in &apos;{location}&apos;
         </h1>
 
         <div className="hidden lg:inline-flex mb-5 space-x-3 text-gray-800 whitespace-nowrap">
